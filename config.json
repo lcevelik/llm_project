@@ -1,0 +1,14 @@
+{
+  "model_name": "mistralai/Mistral-7B-v0.1",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_seq_length": 512,
+  "batch_size": 4,
+  "learning_rate": 2e-4,
+  "num_train_epochs": 3,
+  "data_directory": "./data",
+  "model_output_dir": "./models",
+  "use_lora": true,
+  "lora_r": 8,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1
+}
